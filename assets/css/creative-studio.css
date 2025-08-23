@@ -11256,10 +11256,10 @@ p {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: top;
+  -webkit-align-items: top;
+      -ms-flex-align: top;
+          align-items: top;
   padding: 30px 0;
   width: 95%;
   max-width: 1050px;
@@ -11283,12 +11283,33 @@ p {
   padding: 10px 15px;
 }
 
-.box .box-item i {
-  font-size: 50px;
+.box .box-item .top-row {
+  display: flex;
+  align-items: center;   /* Vertically center <p> and <i> */
+  gap: 10px;              /* Space between them */
+  margin-bottom: 10px;    /* Space before <h6> */
+}
+
+.box .box-item .top-row i {
+  font-size: 2cap;
+  color: #606060; /* color: #d73320; */
+  display: inline-block;
+  margin-bottom: 10px;
+  font-weight: 100;
+}
+
+.box .box-item a i {
+  font-size: 30px;
   color: #d73320;
   display: inline-block;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
   font-weight: 100;
+}
+
+.box .box-item h6 {
+  color: #202020;
+  font-size: 18px;
+  margin-left: 2px;
 }
 
 .box .box-item .box-title {
@@ -11555,7 +11576,7 @@ pre .code {
   margin: auto;
   width: 95%;
   max-width: 1050px;
-  border: 1px solid rgba(234, 240, 252, 0.15);
+  /* border: 1px solid rgba(234, 240, 252, 0.15); */
   border-radius: 0.2rem;
   z-index: 9999;
   -webkit-transition: all, 0.33s;
