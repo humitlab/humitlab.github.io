@@ -5082,6 +5082,10 @@ input[type="button"].btn-block {
   padding: 1.25rem;
 }
 
+.card-body p{
+  margin-bottom: 4px;
+}
+
 .card-title {
   margin-bottom: 0.75rem;
 }
@@ -11125,12 +11129,13 @@ p {
   position: relative;
   border-radius: 0.2rem;
   overflow: hidden;
-  margin-bottom: 30px;
+  margin: 0px;
   display: block;
   display: block;
 }
 
 .img-wrapper img {
+  padding: 2%;
   position: relative;
   width: 100%;
   z-index: 8;
@@ -11421,6 +11426,14 @@ p {
   }
 }
 
+.card p strong{
+  color: #000;
+}
+
+.card p em{
+  color: #C02000;
+}
+
 .card img.inset {
   display: block !important;
   -webkit-transform: translateY(5%);
@@ -11436,11 +11449,22 @@ p {
   margin-top: 10px;
 }
 
+.card .card-body h5{
+  font-weight: 700;
+  font-size: 16px;
+}
+
 .card .card-body .socials a {
   display: inline-block;
   text-decoration: none;
   font-size: 20px;
   margin: 10px 8px 0;
+}
+
+.card .card-body .socials h6 {
+  display: inline-block;
+  font-size: 20px;
+  padding-right: 1em;
 }
 
 .card.blog-post {
