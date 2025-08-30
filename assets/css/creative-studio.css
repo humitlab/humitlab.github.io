@@ -11867,7 +11867,7 @@ pre .code {
 }
 
 .header .overlay .title {
-  font-size: calc(16px + (90 - 40) * ((100vw - 320px) / (1200 - 320)));
+  font-size: calc(16px + (70 - 40) * ((100vw - 320px) / (1200 - 320)));
   margin-bottom: 40px;
 }
 
