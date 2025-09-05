@@ -11908,9 +11908,14 @@ pre .code {
   background: #ffa1b4 !important;
 }
 
+/* Customized */
 body,
 html {
   height: 100%;
+}
+
+p .highlight{
+  color: #c02000;
 }
 
 section {
